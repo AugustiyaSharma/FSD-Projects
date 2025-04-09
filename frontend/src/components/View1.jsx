@@ -10,7 +10,7 @@ const View1 = () => {
 
     const viewdata = async () => {
         try {
-            const res = await axios.get('https://fsdbackend-191o.onrender.com/users');
+            const res = await axios.get('https://fsd-projects-dkcm.onrender.com/users');
             setUsers(res.data);
         } catch (error) {
             console.error("Error fetching users:", error);
